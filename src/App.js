@@ -33,7 +33,7 @@ const [popularMovies, setPopularMovies] = useState([])
   return (
     <div className="App">
       <header className="App-header">
-        <h1>rifki</h1>
+        <h1>rifki22</h1>
         <input placeholder="cari film mu" onChange={({target}) => search(target.value) } className="movie-search"  />
         <div className="movie-contrainer">
         <PopularMovieList/>
